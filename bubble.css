@@ -1,0 +1,49 @@
+h1 {
+  color: #607D8B;
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #888888;
+  box-shadow: inset 0 -1px #b1b1b1;
+  padding: 20px 0;
+}
+div.sound-article {
+  width: 600px;
+  margin: 50px auto;
+  font-size: 0;
+}
+div.sound-article div.sound {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+div.sound-article div.sound a {
+  display: inline-block;
+  margin-top: 100px;
+  cursor: pointer;
+}
+div.sound-article div.sound a img.img {
+  width: 100px;
+  overflow: hidden;
+  display: inline-block;
+}
+div.sound-article div.sound a h2 {
+  color: orange;
+  font-weight: normal;
+}
+div.sound-article div.sound div.sound-content {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  border: 1px solid #2d2d2d;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translate(0, -20px);
+}
+div.sound-article div.sound:hover .sound-content {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/*# sourceMappingURL=bubble.css.map */

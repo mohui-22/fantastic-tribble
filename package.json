@@ -1,0 +1,23 @@
+{
+  "name": "bubble",
+  "version": "1.0.0",
+  "description": "bubble talk",
+  "main": "bubble.html",
+  "dependencies": {
+    "git": "^0.1.5",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fantastic-tribble"
+  },
+  "keywords": [
+    "addssm1."
+  ],
+  "author": "mohui",
+  "license": "ISC"
+}

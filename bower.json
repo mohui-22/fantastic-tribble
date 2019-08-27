@@ -1,0 +1,23 @@
+{
+  "name": "bubble",
+  "description": "bubble talk",
+  "main": "bubble.html",
+  "authors": [
+    "mohui"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "addssm1."
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
